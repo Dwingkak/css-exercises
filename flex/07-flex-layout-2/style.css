@@ -37,10 +37,26 @@ body {
   flex-shrink: 0;
 }
 
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 250px;
+  padding: 10px;
+  /* flex: 1 0 auto; */
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -54,5 +70,6 @@ ul {
 
 a {
   text-decoration: none;
+  font-size: 24px;
   color: #fff;
 }
